@@ -13,9 +13,10 @@
 
             int sum = int.Parse(s) + int.Parse(s1);
 
-            string ll = (sum > 20) ? "more": "less";
+            /*string ll = (sum > 20) ? "more": "less";
             
-            Console.WriteLine("Result is " + ll + " than " + 20.);
+            Console.WriteLine("Result is " + ll + " than " + 20 + ".");*/
+            Console.WriteLine("Result: " + sum);
         }
     }
 }
