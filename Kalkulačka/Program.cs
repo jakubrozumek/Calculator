@@ -40,7 +40,7 @@
                     if (nr2 != 0)
                         wResult = nr2 / nr1;
                     else
-                        Console.WriteLine("Error");
+                        Console.WriteLine("Error, can`t divide by zero.");
                     wResult = 0;
                 break;
 
